@@ -1,0 +1,7 @@
+# ninja log v7
+90	204	8135408135652551	CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj	987242ed2d9318f0
+61	296	8135408135361334	CMakeFiles/rpm-test.dir/Src/sysmem.c.obj	54288b82918eb92
+49	316	8135408135228549	CMakeFiles/rpm-test.dir/Src/syscall.c.obj	bd25b0d47bf62c74
+105	387	8135408135794675	CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj	fe4df94797c6ca63
+75	414	8135408135455369	CMakeFiles/rpm-test.dir/Src/main.c.obj	11c80a55c610c5d3
+414	638	8135408138853809	rpm-test.elf	ffc23a5afb4f5365

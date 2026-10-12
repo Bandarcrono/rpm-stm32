@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/dev/rpm-stm32/rpm-test/build/Debug/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

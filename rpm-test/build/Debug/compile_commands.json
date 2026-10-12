@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/dev/rpm-stm32/rpm-test/build/Debug",
+  "command": "C:\\Users\\crono\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -DSTM32F446xx -IC:/dev/rpm-stm32/rpm-test/Inc -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\rpm-test.dir\\Src\\syscall.c.obj -c C:\\dev\\rpm-stm32\\rpm-test\\Src\\syscall.c",
+  "file": "C:/dev/rpm-stm32/rpm-test/Src/syscall.c",
+  "output": "C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir/Src/syscall.c.obj"
+},
+{
+  "directory": "C:/dev/rpm-stm32/rpm-test/build/Debug",
+  "command": "C:\\Users\\crono\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -DSTM32F446xx -IC:/dev/rpm-stm32/rpm-test/Inc -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\rpm-test.dir\\Src\\sysmem.c.obj -c C:\\dev\\rpm-stm32\\rpm-test\\Src\\sysmem.c",
+  "file": "C:/dev/rpm-stm32/rpm-test/Src/sysmem.c",
+  "output": "C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir/Src/sysmem.c.obj"
+},
+{
+  "directory": "C:/dev/rpm-stm32/rpm-test/build/Debug",
+  "command": "C:\\Users\\crono\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -DSTM32F446xx -IC:/dev/rpm-stm32/rpm-test/Inc -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\rpm-test.dir\\Src\\main.c.obj -c C:\\dev\\rpm-stm32\\rpm-test\\Src\\main.c",
+  "file": "C:/dev/rpm-stm32/rpm-test/Src/main.c",
+  "output": "C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir/Src/main.c.obj"
+},
+{
+  "directory": "C:/dev/rpm-stm32/rpm-test/build/Debug",
+  "command": "C:\\Users\\crono\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -DSTM32F446xx -IC:/dev/rpm-stm32/rpm-test/Inc -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -x assembler-with-cpp -MMD -MP -o CMakeFiles\\rpm-test.dir\\Src\\startup_stm32f446xx.S.obj -c C:\\dev\\rpm-stm32\\rpm-test\\Src\\startup_stm32f446xx.S",
+  "file": "C:/dev/rpm-stm32/rpm-test/Src/startup_stm32f446xx.S",
+  "output": "C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj"
+},
+{
+  "directory": "C:/dev/rpm-stm32/rpm-test/build/Debug",
+  "command": "C:\\Users\\crono\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -DSTM32F446xx -IC:/dev/rpm-stm32/rpm-test/Inc -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include -IC:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\rpm-test.dir\\Src\\system_stm32f4xx.c.obj -c C:\\dev\\rpm-stm32\\rpm-test\\Src\\system_stm32f4xx.c",
+  "file": "C:/dev/rpm-stm32/rpm-test/Src/system_stm32f4xx.c",
+  "output": "C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj"
+}
+]

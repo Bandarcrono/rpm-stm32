@@ -1,0 +1,3 @@
+C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rpm-test.dir
+C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/edit_cache.dir
+C:/dev/rpm-stm32/rpm-test/build/Debug/CMakeFiles/rebuild_cache.dir
