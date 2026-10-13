@@ -681,7 +681,7 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 0x08000000                g_pfnVectors
                 0x080001c4                        . = ALIGN (0x4)
 
-.text           0x08000200     0x7974
+.text           0x08000200     0x78cc
                 0x08000200                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000200       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -860,340 +860,335 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
  .text.SysTick_Handler
                 0x08002074       0x1c CMakeFiles/rpm-test.dir/Src/main.c.obj
                 0x08002074                SysTick_Handler
- .text.read_ab  0x08002090       0x3c CMakeFiles/rpm-test.dir/Src/main.c.obj
- .text.encoder_isr
-                0x080020cc       0x68 CMakeFiles/rpm-test.dir/Src/main.c.obj
  .text.EXTI0_IRQHandler
-                0x08002134        0xc CMakeFiles/rpm-test.dir/Src/main.c.obj
-                0x08002134                EXTI0_IRQHandler
- .text.EXTI1_IRQHandler
-                0x08002140        0xc CMakeFiles/rpm-test.dir/Src/main.c.obj
-                0x08002140                EXTI1_IRQHandler
+                0x08002090       0x40 CMakeFiles/rpm-test.dir/Src/main.c.obj
+                0x08002090                EXTI0_IRQHandler
  .text.__io_putchar
-                0x0800214c       0x30 CMakeFiles/rpm-test.dir/Src/main.c.obj
-                0x0800214c                __io_putchar
- .text.main     0x0800217c      0x18c CMakeFiles/rpm-test.dir/Src/main.c.obj
-                0x0800217c                main
+                0x080020d0       0x30 CMakeFiles/rpm-test.dir/Src/main.c.obj
+                0x080020d0                __io_putchar
+ .text.main     0x08002100      0x15c CMakeFiles/rpm-test.dir/Src/main.c.obj
+                0x08002100                main
  .text.Reset_Handler
-                0x08002308       0x50 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
-                0x08002308                Reset_Handler
+                0x0800225c       0x50 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+                0x0800225c                Reset_Handler
  .text.Default_Handler
-                0x08002358        0x2 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
-                0x08002358                RTC_Alarm_IRQHandler
-                0x08002358                EXTI2_IRQHandler
-                0x08002358                TIM8_CC_IRQHandler
-                0x08002358                SPDIF_Rx_IRQHandler
-                0x08002358                DebugMon_Handler
-                0x08002358                SPI4_IRQHandler
-                0x08002358                TIM1_CC_IRQHandler
-                0x08002358                QuadSPI_IRQHandler
-                0x08002358                DMA2_Stream5_IRQHandler
-                0x08002358                HardFault_Handler
-                0x08002358                DMA1_Stream5_IRQHandler
-                0x08002358                PVD_IRQHandler
-                0x08002358                SDIO_IRQHandler
-                0x08002358                TAMP_STAMP_IRQHandler
-                0x08002358                PendSV_Handler
-                0x08002358                NMI_Handler
-                0x08002358                CAN2_RX1_IRQHandler
-                0x08002358                EXTI3_IRQHandler
-                0x08002358                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08002358                TIM1_UP_TIM10_IRQHandler
-                0x08002358                FMPI2C1_error_IRQHandler
-                0x08002358                TIM8_UP_TIM13_IRQHandler
-                0x08002358                I2C3_ER_IRQHandler
-                0x08002358                I2C2_EV_IRQHandler
-                0x08002358                DMA1_Stream2_IRQHandler
-                0x08002358                CAN1_RX0_IRQHandler
-                0x08002358                OTG_HS_WKUP_IRQHandler
-                0x08002358                UsageFault_Handler
-                0x08002358                CAN2_SCE_IRQHandler
-                0x08002358                DMA2_Stream2_IRQHandler
-                0x08002358                SPI1_IRQHandler
-                0x08002358                TIM6_DAC_IRQHandler
-                0x08002358                TIM1_BRK_TIM9_IRQHandler
-                0x08002358                DCMI_IRQHandler
-                0x08002358                CAN2_RX0_IRQHandler
-                0x08002358                DMA2_Stream3_IRQHandler
-                0x08002358                FMPI2C1_IRQHandler
-                0x08002358                SAI2_IRQHandler
-                0x08002358                USART6_IRQHandler
-                0x08002358                USART3_IRQHandler
-                0x08002358                CAN1_RX1_IRQHandler
-                0x08002358                UART5_IRQHandler
-                0x08002358                DMA2_Stream0_IRQHandler
-                0x08002358                TIM4_IRQHandler
-                0x08002358                I2C1_EV_IRQHandler
-                0x08002358                HDMI_CEC_IRQHandler
-                0x08002358                DMA1_Stream6_IRQHandler
-                0x08002358                DMA1_Stream1_IRQHandler
-                0x08002358                UART4_IRQHandler
-                0x08002358                TIM3_IRQHandler
-                0x08002358                RCC_IRQHandler
-                0x08002358                TIM8_BRK_TIM12_IRQHandler
-                0x08002358                Default_Handler
-                0x08002358                EXTI15_10_IRQHandler
-                0x08002358                ADC_IRQHandler
-                0x08002358                DMA1_Stream7_IRQHandler
-                0x08002358                TIM7_IRQHandler
-                0x08002358                CAN2_TX_IRQHandler
-                0x08002358                TIM5_IRQHandler
-                0x08002358                DMA2_Stream7_IRQHandler
-                0x08002358                I2C3_EV_IRQHandler
-                0x08002358                EXTI9_5_IRQHandler
-                0x08002358                RTC_WKUP_IRQHandler
-                0x08002358                SPI2_IRQHandler
-                0x08002358                OTG_HS_EP1_IN_IRQHandler
-                0x08002358                MemManage_Handler
-                0x08002358                DMA1_Stream0_IRQHandler
-                0x08002358                CAN1_TX_IRQHandler
-                0x08002358                SVC_Handler
-                0x08002358                EXTI4_IRQHandler
-                0x08002358                OTG_HS_EP1_OUT_IRQHandler
-                0x08002358                WWDG_IRQHandler
-                0x08002358                TIM2_IRQHandler
-                0x08002358                OTG_FS_WKUP_IRQHandler
-                0x08002358                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08002358                OTG_HS_IRQHandler
-                0x08002358                USART2_IRQHandler
-                0x08002358                I2C2_ER_IRQHandler
-                0x08002358                DMA2_Stream1_IRQHandler
-                0x08002358                CAN1_SCE_IRQHandler
-                0x08002358                FLASH_IRQHandler
-                0x08002358                DMA2_Stream4_IRQHandler
-                0x08002358                BusFault_Handler
-                0x08002358                USART1_IRQHandler
-                0x08002358                OTG_FS_IRQHandler
-                0x08002358                SPI3_IRQHandler
-                0x08002358                DMA1_Stream4_IRQHandler
-                0x08002358                I2C1_ER_IRQHandler
-                0x08002358                FMC_IRQHandler
-                0x08002358                DMA2_Stream6_IRQHandler
-                0x08002358                SAI1_IRQHandler
-                0x08002358                DMA1_Stream3_IRQHandler
- *fill*         0x0800235a        0x2 
+                0x080022ac        0x2 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+                0x080022ac                RTC_Alarm_IRQHandler
+                0x080022ac                EXTI2_IRQHandler
+                0x080022ac                TIM8_CC_IRQHandler
+                0x080022ac                SPDIF_Rx_IRQHandler
+                0x080022ac                DebugMon_Handler
+                0x080022ac                SPI4_IRQHandler
+                0x080022ac                TIM1_CC_IRQHandler
+                0x080022ac                QuadSPI_IRQHandler
+                0x080022ac                DMA2_Stream5_IRQHandler
+                0x080022ac                HardFault_Handler
+                0x080022ac                DMA1_Stream5_IRQHandler
+                0x080022ac                PVD_IRQHandler
+                0x080022ac                SDIO_IRQHandler
+                0x080022ac                TAMP_STAMP_IRQHandler
+                0x080022ac                PendSV_Handler
+                0x080022ac                NMI_Handler
+                0x080022ac                CAN2_RX1_IRQHandler
+                0x080022ac                EXTI3_IRQHandler
+                0x080022ac                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080022ac                TIM1_UP_TIM10_IRQHandler
+                0x080022ac                FMPI2C1_error_IRQHandler
+                0x080022ac                TIM8_UP_TIM13_IRQHandler
+                0x080022ac                I2C3_ER_IRQHandler
+                0x080022ac                I2C2_EV_IRQHandler
+                0x080022ac                DMA1_Stream2_IRQHandler
+                0x080022ac                CAN1_RX0_IRQHandler
+                0x080022ac                OTG_HS_WKUP_IRQHandler
+                0x080022ac                UsageFault_Handler
+                0x080022ac                CAN2_SCE_IRQHandler
+                0x080022ac                DMA2_Stream2_IRQHandler
+                0x080022ac                SPI1_IRQHandler
+                0x080022ac                TIM6_DAC_IRQHandler
+                0x080022ac                TIM1_BRK_TIM9_IRQHandler
+                0x080022ac                DCMI_IRQHandler
+                0x080022ac                CAN2_RX0_IRQHandler
+                0x080022ac                DMA2_Stream3_IRQHandler
+                0x080022ac                FMPI2C1_IRQHandler
+                0x080022ac                SAI2_IRQHandler
+                0x080022ac                USART6_IRQHandler
+                0x080022ac                USART3_IRQHandler
+                0x080022ac                CAN1_RX1_IRQHandler
+                0x080022ac                UART5_IRQHandler
+                0x080022ac                DMA2_Stream0_IRQHandler
+                0x080022ac                TIM4_IRQHandler
+                0x080022ac                I2C1_EV_IRQHandler
+                0x080022ac                HDMI_CEC_IRQHandler
+                0x080022ac                DMA1_Stream6_IRQHandler
+                0x080022ac                DMA1_Stream1_IRQHandler
+                0x080022ac                UART4_IRQHandler
+                0x080022ac                TIM3_IRQHandler
+                0x080022ac                RCC_IRQHandler
+                0x080022ac                TIM8_BRK_TIM12_IRQHandler
+                0x080022ac                Default_Handler
+                0x080022ac                EXTI15_10_IRQHandler
+                0x080022ac                ADC_IRQHandler
+                0x080022ac                DMA1_Stream7_IRQHandler
+                0x080022ac                TIM7_IRQHandler
+                0x080022ac                CAN2_TX_IRQHandler
+                0x080022ac                TIM5_IRQHandler
+                0x080022ac                DMA2_Stream7_IRQHandler
+                0x080022ac                I2C3_EV_IRQHandler
+                0x080022ac                EXTI9_5_IRQHandler
+                0x080022ac                RTC_WKUP_IRQHandler
+                0x080022ac                SPI2_IRQHandler
+                0x080022ac                OTG_HS_EP1_IN_IRQHandler
+                0x080022ac                MemManage_Handler
+                0x080022ac                DMA1_Stream0_IRQHandler
+                0x080022ac                CAN1_TX_IRQHandler
+                0x080022ac                SVC_Handler
+                0x080022ac                EXTI4_IRQHandler
+                0x080022ac                OTG_HS_EP1_OUT_IRQHandler
+                0x080022ac                WWDG_IRQHandler
+                0x080022ac                TIM2_IRQHandler
+                0x080022ac                OTG_FS_WKUP_IRQHandler
+                0x080022ac                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080022ac                OTG_HS_IRQHandler
+                0x080022ac                EXTI1_IRQHandler
+                0x080022ac                USART2_IRQHandler
+                0x080022ac                I2C2_ER_IRQHandler
+                0x080022ac                DMA2_Stream1_IRQHandler
+                0x080022ac                CAN1_SCE_IRQHandler
+                0x080022ac                FLASH_IRQHandler
+                0x080022ac                DMA2_Stream4_IRQHandler
+                0x080022ac                BusFault_Handler
+                0x080022ac                USART1_IRQHandler
+                0x080022ac                OTG_FS_IRQHandler
+                0x080022ac                SPI3_IRQHandler
+                0x080022ac                DMA1_Stream4_IRQHandler
+                0x080022ac                I2C1_ER_IRQHandler
+                0x080022ac                FMC_IRQHandler
+                0x080022ac                DMA2_Stream6_IRQHandler
+                0x080022ac                SAI1_IRQHandler
+                0x080022ac                DMA1_Stream3_IRQHandler
+ *fill*         0x080022ae        0x2 
  .text.SystemInit
-                0x0800235c       0x24 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
-                0x0800235c                SystemInit
- .text.printf   0x08002380       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
-                0x08002380                printf
+                0x080022b0       0x24 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+                0x080022b0                SystemInit
+ .text.printf   0x080022d4       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
+                0x080022d4                printf
+ *fill*         0x080022fc        0x4 
  .text._vfprintf_r
-                0x080023a8     0x2178 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
-                0x080023a8                _vfprintf_r
+                0x08002300     0x2178 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08002300                _vfprintf_r
  .text.__sbprintf
-                0x08004520       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08004478       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .text.__sprint_r
-                0x080045a4       0x20 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
-                0x080045a4                __sprint_r
+                0x080044fc       0x20 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+                0x080044fc                __sprint_r
  .text.__sfvwrite_r
-                0x080045c4      0x2ec C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
-                0x080045c4                __sfvwrite_r
+                0x0800451c      0x2ec C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+                0x0800451c                __sfvwrite_r
  .text.__swsetup_r
-                0x080048b0       0xfc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
-                0x080048b0                __swsetup_r
- .text.memmove  0x080049ac      0x130 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
-                0x080049ac                memmove
- .text.strncpy  0x08004adc       0x68 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
-                0x08004adc                strncpy
+                0x08004808       0xfc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+                0x08004808                __swsetup_r
+ .text.memmove  0x08004904      0x130 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+                0x08004904                memmove
+ .text.strncpy  0x08004a34       0x68 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+                0x08004a34                strncpy
  .text._localeconv_r
-                0x08004b44        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
-                0x08004b44                _localeconv_r
- .text.frexp    0x08004b4c       0x64 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
-                0x08004b4c                frexp
- .text.quorem   0x08004bb0      0x12c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- *fill*         0x08004cdc        0x4 
- .text._dtoa_r  0x08004ce0     0x1030 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
-                0x08004ce0                _dtoa_r
- .text._Balloc  0x08005d10       0x4c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005d10                _Balloc
- .text._Bfree   0x08005d5c       0x14 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005d5c                _Bfree
+                0x08004a9c        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+                0x08004a9c                _localeconv_r
+ .text.frexp    0x08004aa4       0x64 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+                0x08004aa4                frexp
+ .text.quorem   0x08004b08      0x12c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ *fill*         0x08004c34        0x4 
+ .text._dtoa_r  0x08004c38     0x1030 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x08004c38                _dtoa_r
+ .text._Balloc  0x08005c68       0x4c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005c68                _Balloc
+ .text._Bfree   0x08005cb4       0x14 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005cb4                _Bfree
  .text.__multadd
-                0x08005d70       0xa0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005d70                __multadd
+                0x08005cc8       0xa0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005cc8                __multadd
  .text.__hi0bits
-                0x08005e10       0x54 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005e10                __hi0bits
+                0x08005d68       0x54 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005d68                __hi0bits
  .text.__lo0bits
-                0x08005e64       0x80 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005e64                __lo0bits
- .text.__i2b    0x08005ee4       0x5c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005ee4                __i2b
+                0x08005dbc       0x80 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005dbc                __lo0bits
+ .text.__i2b    0x08005e3c       0x5c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005e3c                __i2b
  .text.__multiply
-                0x08005f40      0x16c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08005f40                __multiply
+                0x08005e98      0x16c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08005e98                __multiply
  .text.__pow5mult
-                0x080060ac       0xc0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x080060ac                __pow5mult
+                0x08006004       0xc0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006004                __pow5mult
  .text.__lshift
-                0x0800616c       0xe8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800616c                __lshift
- .text.__mcmp   0x08006254       0x44 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006254                __mcmp
- .text.__mdiff  0x08006298      0x174 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006298                __mdiff
- .text.__d2b    0x0800640c       0xbc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800640c                __d2b
+                0x080060c4       0xe8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080060c4                __lshift
+ .text.__mcmp   0x080061ac       0x44 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080061ac                __mcmp
+ .text.__mdiff  0x080061f0      0x174 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080061f0                __mdiff
+ .text.__d2b    0x08006364       0xbc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006364                __d2b
  .text._realloc_r
-                0x080064c8      0x348 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
-                0x080064c8                _realloc_r
+                0x08006420      0x348 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+                0x08006420                _realloc_r
  .text.__smakebuf_r
-                0x08006810       0xd0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
-                0x08006810                __smakebuf_r
+                0x08006768       0xd0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x08006768                __smakebuf_r
  .text._fstat_r
-                0x080068e0       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
-                0x080068e0                _fstat_r
+                0x08006838       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+                0x08006838                _fstat_r
  .text._isatty_r
-                0x0800690c       0x24 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
-                0x0800690c                _isatty_r
+                0x08006864       0x24 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+                0x08006864                _isatty_r
  .text.__assert_func
-                0x08006930       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
-                0x08006930                __assert_func
+                0x08006888       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08006888                __assert_func
  .text._calloc_r
-                0x08006970       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
-                0x08006970                _calloc_r
+                0x080068c8       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+                0x080068c8                _calloc_r
  .text.__ascii_mbtowc
-                0x080069dc       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
-                0x080069dc                __ascii_mbtowc
+                0x08006934       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+                0x08006934                __ascii_mbtowc
  .text.__ascii_wctomb
-                0x08006a08       0x1c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
-                0x08006a08                __ascii_wctomb
+                0x08006960       0x1c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+                0x08006960                __ascii_wctomb
  .text.fiprintf
-                0x08006a24       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
-                0x08006a24                fiprintf
+                0x0800697c       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+                0x0800697c                fiprintf
  .text._vfiprintf_r
-                0x08006a4c      0xff4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x08006a4c                _vfiprintf_r
+                0x080069a4      0xff4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x080069a4                _vfiprintf_r
  .text.__sbprintf
-                0x08007a40       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- .text.abort    0x08007ac4       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
-                0x08007ac4                abort
- .text.raise    0x08007ad4       0x58 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
-                0x08007ad4                raise
- .text._kill_r  0x08007b2c       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x08007b2c                _kill_r
+                0x08007998       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ .text.abort    0x08007a1c       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+                0x08007a1c                abort
+ .text.raise    0x08007a2c       0x58 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+                0x08007a2c                raise
+ .text._kill_r  0x08007a84       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08007a84                _kill_r
  .text._getpid_r
-                0x08007b58        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x08007b58                _getpid_r
+                0x08007ab0        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08007ab0                _getpid_r
  *(.glue_7)
- .glue_7        0x08007b5c        0x0 linker stubs
+ .glue_7        0x08007ab4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08007b5c        0x0 linker stubs
+ .glue_7t       0x08007ab4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08007b5c        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08007ab4        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08007b5c        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08007b5c                _init
- .init          0x08007b60        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08007ab4        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08007ab4                _init
+ .init          0x08007ab8        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08007b68        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08007b68                _fini
- .fini          0x08007b6c        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08007b74                        . = ALIGN (0x4)
-                0x08007b74                        _etext = .
+ .fini          0x08007ac0        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08007ac0                _fini
+ .fini          0x08007ac4        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08007acc                        . = ALIGN (0x4)
+                0x08007acc                        _etext = .
 
-.vfp11_veneer   0x08007b74        0x0
- .vfp11_veneer  0x08007b74        0x0 linker stubs
+.vfp11_veneer   0x08007acc        0x0
+ .vfp11_veneer  0x08007acc        0x0 linker stubs
 
-.v4_bx          0x08007b74        0x0
- .v4_bx         0x08007b74        0x0 linker stubs
+.v4_bx          0x08007acc        0x0
+ .v4_bx         0x08007acc        0x0 linker stubs
 
-.iplt           0x08007b74        0x0
- .iplt          0x08007b74        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08007acc        0x0
+ .iplt          0x08007acc        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08007b78      0x40c
-                0x08007b78                        . = ALIGN (0x4)
+.rodata         0x08007ad0      0x3f4
+                0x08007ad0                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08007b78       0x4e CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .rodata        0x08007ad0       0x45 CMakeFiles/rpm-test.dir/Src/main.c.obj
  *(.rodata*)
- *fill*         0x08007bc6        0x2 
- .rodata.QDEC   0x08007bc8       0x10 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ *fill*         0x08007b15        0x3 
  .rodata._vfprintf_r.str1.4
-                0x08007bd8      0x16b C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08007b18      0x16b C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x08007d43        0x1 
+ *fill*         0x08007c83        0x1 
  .rodata.zeroes.0
-                0x08007d44       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08007c84       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .rodata.blanks.1
-                0x08007d54       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08007c94       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x08007d64       0x80 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x08007ca4       0x80 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
  .rodata.__multadd.str1.4
-                0x08007d64       0x6d C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .rodata.p05.0  0x08007d64        0xc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08007ca4       0x6d C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .rodata.p05.0  0x08007ca4        0xc C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x08007d70       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08007d70                __mprec_bigtens
+                0x08007cb0       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08007cb0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08007d98       0xc8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08007d98                __mprec_tens
+                0x08007cd8       0xc8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08007cd8                __mprec_tens
  .rodata._setlocale_r.str1.4
-                0x08007e60        0xd C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08007da0        0xd C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata.str1.4
-                0x08007e60        0x2 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08007da0        0x2 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata.__assert_func.str1.4
-                0x08007e60       0x43 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08007da0       0x43 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
  .rodata._ctype_
-                0x08007e60      0x101 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
-                0x08007e60                _ctype_
+                0x08007da0      0x101 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+                0x08007da0                _ctype_
  .rodata._vfiprintf_r.str1.4
-                0x08007f61       0x2f C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- *fill*         0x08007f61        0x3 
+                0x08007ea1       0x2f C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ *fill*         0x08007ea1        0x3 
  .rodata.zeroes.0
-                0x08007f64       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08007ea4       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x08007f74       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x08007f84                        . = ALIGN (0x4)
+                0x08007eb4       0x10 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08007ec4                        . = ALIGN (0x4)
 
-.ARM.extab      0x08007f84        0x0
-                0x08007f84                        . = ALIGN (0x4)
+.ARM.extab      0x08007ec4        0x0
+                0x08007ec4                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08007f84                        . = ALIGN (0x4)
+                0x08007ec4                        . = ALIGN (0x4)
 
-.ARM            0x08007f84        0x8
-                0x08007f84                        . = ALIGN (0x4)
-                0x08007f84                        __exidx_start = .
+.ARM            0x08007ec4        0x8
+                0x08007ec4                        . = ALIGN (0x4)
+                0x08007ec4                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08007f84        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
- .ARM.exidx     0x08007f8c        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .ARM.exidx     0x08007ec4        0x8 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .ARM.exidx     0x08007ecc        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08007f8c        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x08007ecc        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
-                0x08007f8c                        __exidx_end = .
-                0x08007f8c                        . = ALIGN (0x4)
+                0x08007ecc                        __exidx_end = .
+                0x08007ecc                        . = ALIGN (0x4)
 
-.preinit_array  0x08007f8c        0x0
-                0x08007f8c                        . = ALIGN (0x4)
-                0x08007f8c                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08007ecc        0x0
+                0x08007ecc                        . = ALIGN (0x4)
+                0x08007ecc                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08007f8c                        PROVIDE (__preinit_array_end = .)
-                0x08007f8c                        . = ALIGN (0x4)
+                0x08007ecc                        PROVIDE (__preinit_array_end = .)
+                0x08007ecc                        . = ALIGN (0x4)
 
-.init_array     0x08007f8c        0x8
-                0x08007f8c                        . = ALIGN (0x4)
-                0x08007f8c                        PROVIDE (__init_array_start = .)
+.init_array     0x08007ecc        0x8
+                0x08007ecc                        . = ALIGN (0x4)
+                0x08007ecc                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08007f8c        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x08007ecc        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08007f90        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08007f94                        PROVIDE (__init_array_end = .)
-                0x08007f94                        . = ALIGN (0x4)
+ .init_array    0x08007ed0        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08007ed4                        PROVIDE (__init_array_end = .)
+                0x08007ed4                        . = ALIGN (0x4)
 
-.fini_array     0x08007f94        0x4
-                0x08007f94                        . = ALIGN (0x4)
-                0x08007f94                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08007ed4        0x4
+                0x08007ed4                        . = ALIGN (0x4)
+                0x08007ed4                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08007f94        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08007f98                        PROVIDE (__fini_array_end = .)
-                0x08007f98                        . = ALIGN (0x4)
-                0x08007f98                        _sidata = LOADADDR (.data)
+ .fini_array    0x08007ed4        0x4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08007ed8                        PROVIDE (__fini_array_end = .)
+                0x08007ed8                        . = ALIGN (0x4)
+                0x08007ed8                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08007f98        0x0
- .rel.iplt      0x08007f98        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08007ed8        0x0
+ .rel.iplt      0x08007ed8        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000      0x6b8 load address 0x08007f98
+.data           0x20000000      0x6b8 load address 0x08007ed8
                 0x20000000                        _sdata = .
  *(.data)
  *(.data*)
@@ -1228,10 +1223,10 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
  *(.RamFunc*)
                 0x200006b8                        . = ALIGN (0x4)
 
-.igot.plt       0x200006b8        0x0 load address 0x08008650
+.igot.plt       0x200006b8        0x0 load address 0x08008590
  .igot.plt      0x200006b8        0x0 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x200006b8        0x0 load address 0x08008650
+.tdata          0x200006b8        0x0 load address 0x08008590
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200006b8                        . = ALIGN (0x4)
                 0x200006b8                        _edata = .
@@ -1248,7 +1243,7 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x200006b8        0x0 load address 0x08008650
+.tbss           0x200006b8        0x0 load address 0x08008590
                 0x200006b8                        _sbss = .
                 0x200006b8                        __bss_start__ = _sbss
                 [!provide]                        PROVIDE (__bss_start = .)
@@ -1266,7 +1261,7 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x200006b8      0x344 load address 0x08008650
+.bss            0x200006b8      0x33c load address 0x08008590
  *(.bss)
  .bss           0x200006b8       0x1c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
@@ -1310,30 +1305,26 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 0x200009e8        0x4 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
  .bss.enc_count
                 0x200009ec        0x4 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .bss.enc_errors
-                0x200009f0        0x4 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .bss.ms        0x200009f4        0x4 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .bss.enc_prev  0x200009f8        0x1 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .bss.ms        0x200009f0        0x4 CMakeFiles/rpm-test.dir/Src/main.c.obj
  *(COMMON)
-                0x200009fc                        . = ALIGN (0x4)
- *fill*         0x200009f9        0x3 
-                0x200009fc                        _ebss = .
-                0x200009fc                        __bss_end__ = _ebss
+                0x200009f4                        . = ALIGN (0x4)
+                0x200009f4                        _ebss = .
+                0x200009f4                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
 
 ._user_heap_stack
-                0x200009fc      0x604 load address 0x08008650
-                0x20000a00                        . = ALIGN (0x8)
- *fill*         0x200009fc        0x4 
+                0x200009f4      0x604 load address 0x08008590
+                0x200009f8                        . = ALIGN (0x8)
+ *fill*         0x200009f4        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x20000a00                        PROVIDE (_end = .)
-                0x20000c00                        . = (. + _Min_Heap_Size)
- *fill*         0x20000a00      0x200 
-                0x20001000                        . = (. + _Min_Stack_Size)
- *fill*         0x20000c00      0x400 
-                0x20001000                        . = ALIGN (0x8)
+                0x200009f8                        PROVIDE (_end = .)
+                0x20000bf8                        . = (. + _Min_Heap_Size)
+ *fill*         0x200009f8      0x200 
+                0x20000ff8                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000bf8      0x400 
+                0x20000ff8                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a:*(*)
@@ -1478,7 +1469,7 @@ LOAD C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
 OUTPUT(rpm-test.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_frame    0x00000000     0x1868
+.debug_frame    0x00000000     0x1804
  .debug_frame   0x00000000      0x13c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .debug_frame   0x0000013c       0x34 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
  .debug_frame   0x00000170       0x8c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
@@ -1504,82 +1495,82 @@ LOAD linker stubs
  .debug_frame   0x000006d4       0x20 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
  .debug_frame   0x000006f4      0x288 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_frame   0x0000097c       0x34 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_frame   0x000009b0      0x160 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_frame   0x00000b10       0x50 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
- .debug_frame   0x00000b60       0xac C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00000c0c       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
- .debug_frame   0x00000c78       0x94 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
- .debug_frame   0x00000d0c       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
- .debug_frame   0x00000d34       0x60 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
- .debug_frame   0x00000d94       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
- .debug_frame   0x00000dc0       0x30 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
- .debug_frame   0x00000df0       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
- .debug_frame   0x00000e18       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
- .debug_frame   0x00000e58       0x4c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
- .debug_frame   0x00000ea4       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
- .debug_frame   0x00000ecc       0x30 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
- .debug_frame   0x00000efc       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
- .debug_frame   0x00000f28       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- .debug_frame   0x00000fac      0x280 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .debug_frame   0x0000122c       0x48 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
- .debug_frame   0x00001274       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
- .debug_frame   0x000012e0       0x68 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
- .debug_frame   0x00001348       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
- .debug_frame   0x00001374       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
- .debug_frame   0x000013a0       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
- .debug_frame   0x000013e0       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
- .debug_frame   0x0000140c       0x48 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
- .debug_frame   0x00001454       0x38 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
- .debug_frame   0x0000148c       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
- .debug_frame   0x000014f8       0x98 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- .debug_frame   0x00001590       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
- .debug_frame   0x000015b8      0x11c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
- .debug_frame   0x000016d4       0x3c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
- .debug_frame   0x00001710       0x50 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00001760       0xc4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00001824       0x20 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00001844       0x24 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x000009b0       0xfc CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_frame   0x00000aac       0x50 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x00000afc       0xac C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000ba8       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
+ .debug_frame   0x00000c14       0x94 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+ .debug_frame   0x00000ca8       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+ .debug_frame   0x00000cd0       0x60 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+ .debug_frame   0x00000d30       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+ .debug_frame   0x00000d5c       0x30 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+ .debug_frame   0x00000d8c       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+ .debug_frame   0x00000db4       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+ .debug_frame   0x00000df4       0x4c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .debug_frame   0x00000e40       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .debug_frame   0x00000e68       0x30 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .debug_frame   0x00000e98       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+ .debug_frame   0x00000ec4       0x84 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ .debug_frame   0x00000f48      0x280 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .debug_frame   0x000011c8       0x48 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+ .debug_frame   0x00001210       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+ .debug_frame   0x0000127c       0x68 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+ .debug_frame   0x000012e4       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+ .debug_frame   0x00001310       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+ .debug_frame   0x0000133c       0x40 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+ .debug_frame   0x0000137c       0x2c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+ .debug_frame   0x000013a8       0x48 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+ .debug_frame   0x000013f0       0x38 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+ .debug_frame   0x00001428       0x6c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+ .debug_frame   0x00001494       0x98 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ .debug_frame   0x0000152c       0x28 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+ .debug_frame   0x00001554      0x11c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+ .debug_frame   0x00001670       0x3c C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+ .debug_frame   0x000016ac       0x50 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000016fc       0xc4 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000017c0       0x20 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x000017e0       0x24 C:/Users/crono/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
 
-.debug_info     0x00000000     0x19c8
+.debug_info     0x00000000     0x18f5
  .debug_info    0x00000000      0x6b4 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_info    0x000006b4      0x168 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_info    0x0000081c      0xc39 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_info    0x00001455       0x30 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
- .debug_info    0x00001485      0x543 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0000081c      0xb66 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_info    0x00001382       0x30 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+ .debug_info    0x000013b2      0x543 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
-.debug_abbrev   0x00000000      0x631
+.debug_abbrev   0x00000000      0x5e4
  .debug_abbrev  0x00000000      0x1be CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_abbrev  0x000001be       0xbc CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_abbrev  0x0000027a      0x279 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_abbrev  0x000004f3       0x24 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
- .debug_abbrev  0x00000517      0x11a CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x0000027a      0x22c CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_abbrev  0x000004a6       0x24 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+ .debug_abbrev  0x000004ca      0x11a CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
-.debug_aranges  0x00000000      0x180
+.debug_aranges  0x00000000      0x168
  .debug_aranges
                 0x00000000       0xa8 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_aranges
                 0x000000a8       0x20 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
  .debug_aranges
-                0x000000c8       0x68 CMakeFiles/rpm-test.dir/Src/main.c.obj
+                0x000000c8       0x50 CMakeFiles/rpm-test.dir/Src/main.c.obj
  .debug_aranges
-                0x00000130       0x28 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+                0x00000118       0x28 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
  .debug_aranges
-                0x00000158       0x28 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+                0x00000140       0x28 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
 .debug_rnglists
-                0x00000000      0x109
+                0x00000000       0xf7
  .debug_rnglists
                 0x00000000       0x79 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_rnglists
                 0x00000079       0x13 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
  .debug_rnglists
-                0x0000008c       0x4a CMakeFiles/rpm-test.dir/Src/main.c.obj
+                0x0000008c       0x38 CMakeFiles/rpm-test.dir/Src/main.c.obj
  .debug_rnglists
-                0x000000d6       0x19 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+                0x000000c4       0x19 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
  .debug_rnglists
-                0x000000ef       0x1a CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+                0x000000dd       0x1a CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
-.debug_macro    0x00000000    0x1a84c
+.debug_macro    0x00000000    0x1a846
  .debug_macro   0x00000000      0x265 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_macro   0x00000265      0xad8 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_macro   0x00000d3d       0x22 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
@@ -1630,38 +1621,38 @@ LOAD linker stubs
  .debug_macro   0x0000246c       0xce CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_macro   0x0000253a      0x103 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
  .debug_macro   0x0000263d      0x23c CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_macro   0x00002879      0x1b4 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002a2d       0x16 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002a43       0x9e CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002ae1      0x112 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002bf3       0x16 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002c09       0x2e CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002c37       0x28 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002c5f       0x1c CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002c7b       0x22 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002c9d       0xfb CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00002d98     0x1011 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00003da9      0x11f CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x00003ec8    0x1675e CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x0001a626       0x6d CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_macro   0x0001a693       0xda CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
- .debug_macro   0x0001a76d       0x8e CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
- .debug_macro   0x0001a7fb       0x51 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_macro   0x00002879      0x1ae CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002a27       0x16 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002a3d       0x9e CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002adb      0x112 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002bed       0x16 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002c03       0x2e CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002c31       0x28 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002c59       0x1c CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002c75       0x22 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002c97       0xfb CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00002d92     0x1011 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00003da3      0x11f CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x00003ec2    0x1675e CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x0001a620       0x6d CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_macro   0x0001a68d       0xda CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_macro   0x0001a767       0x8e CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_macro   0x0001a7f5       0x51 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
-.debug_line     0x00000000     0x166d
+.debug_line     0x00000000     0x160a
  .debug_line    0x00000000      0x6e5 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
  .debug_line    0x000006e5      0x3c2 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_line    0x00000aa7      0x6b5 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_line    0x0000115c       0x7b CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
- .debug_line    0x000011d7      0x496 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00000aa7      0x652 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_line    0x000010f9       0x7b CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+ .debug_line    0x00001174      0x496 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
-.debug_str      0x00000000    0x90f50
- .debug_str     0x00000000    0x90f50 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
+.debug_str      0x00000000    0x90efa
+ .debug_str     0x00000000    0x90efa CMakeFiles/rpm-test.dir/Src/syscall.c.obj
                                0x93d2 (size before relaxing)
- .debug_str     0x00090f50     0x70d8 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
- .debug_str     0x00090f50    0x8ef71 CMakeFiles/rpm-test.dir/Src/main.c.obj
- .debug_str     0x00090f50       0x76 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
- .debug_str     0x00090f50    0x8b3b9 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
+ .debug_str     0x00090efa     0x70d8 CMakeFiles/rpm-test.dir/Src/sysmem.c.obj
+ .debug_str     0x00090efa    0x8ef14 CMakeFiles/rpm-test.dir/Src/main.c.obj
+ .debug_str     0x00090efa       0x76 CMakeFiles/rpm-test.dir/Src/startup_stm32f446xx.S.obj
+ .debug_str     0x00090efa    0x8b3b9 CMakeFiles/rpm-test.dir/Src/system_stm32f4xx.c.obj
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/rpm-test.dir/Src/syscall.c.obj
