@@ -1,0 +1,7 @@
+C:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+C:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+C:/dev/rpm-stm32/rpm-test/Drivers/CMSIS/Include/core_cm4.h:2022:26:SysTick_Config	16	static
+C:/dev/rpm-stm32/rpm-test/Src/main.c:26:6:SysTick_Handler	4	static
+C:/dev/rpm-stm32/rpm-test/Src/main.c:30:6:EXTI0_IRQHandler	4	static
+C:/dev/rpm-stm32/rpm-test/Src/main.c:37:5:__io_putchar	16	static
+C:/dev/rpm-stm32/rpm-test/Src/main.c:44:5:main	48	static
